@@ -32,7 +32,6 @@ for k, v in knights.items():
 
 #Assignment 1
 fh = open("test.txt")
-lst = list()
 zeDict = dict()
 for line in fh:
     line = line.rstrip()
