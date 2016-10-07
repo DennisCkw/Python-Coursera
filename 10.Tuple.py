@@ -14,8 +14,12 @@ z = (1, 2 ,3) < (2, 0 , 4)
 print(z)
 
 #Sorting Lists of Tuples
-# - Use list to sort tuples
+# Use sorted function to sort it into a list
 d = {'a':10, 'b':1, 'c':22}
 l = d.items()
 print(sorted(l))
 
+#shortcut
+
+c = {'a':10, 'b':1, 'c':2}
+print(sorted([(v,k) for k,v in c.items()]))
